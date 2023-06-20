@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="/tailwind.css">
+    
+</head>
+<body class="bg-gray-100 text-gray-600">
+    <!--Header-->
+    <div>
+        <div class="container max-w-5xl mx-auto px-4 h-24 flex items-center"> 
+            <div class="font-black">
+                <img src="./icons/rsz_rixos_hotels_logo.png" alt="" style="width: 190px; height: 60px;">
+            </div>
+            <ul class="flex items-center ml-auto  space-x-4">
+                <li>
+                    <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Como reservar</a>
+                </li>
+                <li>
+                    <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Informações</a>
+                </li>
+                <li>
+                    <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/Header-->
+    <!--Banner-->
+    <div style="background: url(./img/banner.jpg); height: 450px;">
+        <div class="container max-w-5xl mx-auto h-full px-4 flex items-center justify-center">
+            <div>
+                <div class="text-center">
+                    <h1 class="text-gray-200 text-3xl mb-1">Onde você quer ir?</h1>
+                    <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts.</p>
+                </div>
+                <div class="mt-7">
+                    <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                        <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                            <option value="">Escolha estado</option>
+                        </select>
+                        <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                            <option value="">Escolha cidade</option>
+                        </select>
+                        <button class="col-span-2 lg:col-span-1 inline-flex items-center justify-center text-yellow-900 bg-orange-400 px-3 py-2 rounded">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            Pesquisar resorts
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Banner-->
+    <!--Featured resort-->
+    <div>
+        <div class="container max-w-5xl mx-auto  py-20">
+            <div class="flex flex-col-reverse lg:flex-row">
+                <div class="lg:pr-10">
+                    <div class="text-sm text-gray-500 font-medium">RESORT EM DESTAQUE</div>
+                    <div class="text-2xl">Ecoresort Praia do Forte Bahia</div>
+                    <div class="flex flex-row">
+                        <div class="text-sm text-gray-500 font-medium mt-1 mr-2">Hotel com selo de qualidade 5 estrelas</div> 
+                        <svg class="w-6 h-6 mt-1" fill="rgb(247, 211, 69)" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-6 h-6 mt-1" fill="rgb(247, 211, 69)" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-6 h-6 mt-1" fill="rgb(247, 211, 69)" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-6 h-6 mt-1" fill="rgb(247, 211, 69)" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-6 h-6 mt-1" fill="rgb(247, 211, 69)" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                   
+                    <div class="text-sm text-gray-500 font-medium mt-4">
+                        <p class="mb-2 text-justify font-light">No Brasil, ao norte de Salvador, encontra-se um destino ideal para os amantes do ecoturismo, da beleza natural e do puro prazer que é desfrutar de tempo e conforto num resort de luxo na Bahia. </p>
+                        <p class="text-justify font-light">Próximo a reservas de Mata Atlântica, lagos, praias de desovas de tartarugas marinhas, áreas de observação de baleias e recifes de coral, o local ainda abriga uma charmosa Vila de Pescadores e as ruínas da única construção em estilo medieval do país, o Castelo Garcia D Ávila</p>
+                    </div>
+                    <div class="container mt-4">
+                        <button class="inline-flex items-center text-yellow-900 bg-orange-400 px-3 py-2 rounded">
+                            Solicitar reserva
+                            <svg class="w-5 h-5 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex-shrink-0 lg:ml-auto mb-5 lg:mb-0">
+                    <img src="./img/foto1.jpg" style="width:450px">
+                    <svg class="ml-48 -mt-2" xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                      </svg>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--/Featured resort-->
+    <!--Resort grid-->
+    <div>
+        <div class="container max-w-5xl mx-auto">
+            <div>
+                <h3 class="text-2xl text-center font-semibold text-gray-500 mb-8">Conheça mais Resorts</h3>
+                <div class="md:grid lg:grid-cols-4 md:grid-rows-2 md:gap-4  md:space-y-0">
+                    <div class="relative md:col-span-2 md:row-span-2 rounded-md overflow-hidden ">
+                        <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                            Beach Park Resort
+                        </div>
+                        <img src="img/bg1.png" class="absolute w-full h-20 bottom-0 z-10">
+                        <img src="img/foto2.jpg" class="w-full h-full object-cover">
+                    </div>
+                    <div class="relative md:col-span-2 md:h-40 rounded-md overflow-hidden">
+                        <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                            Salinas de Maragogi Resort
+                        </div>
+                        <img src="img/bg1.png" class="absolute w-full h-20 bottom-0 z-10 ">
+                        <img src="img/foto3.jpg" class="w-full object-cover">
+                    </div>
+                    <div class="relative rounded-md overflow-hidden">
+                        <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                            Grand Palladium
+                        </div>
+                        <img src="img/bg1.png" class="absolute w-full h-20 bottom-0 z-10">
+                        <img src="img/foto4.jpg" class="w-full h-full object-cover">
+                    </div>
+                    <div class="relative rounded-md overflow-hidden">
+                        <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                            Arraial d'Ajuda Eco Resort
+                        </div>
+                        <img src="img/bg1.png" class="absolute w-full h-20 bottom-0 z-10">
+                        <img src="img/foto5.jpg" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Resort grid-->
+    <!--Form Search-->
+    <div class="py-20"> 
+        <div class="container max-w-5xl mx-auto flex justify-center">
+            <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                    <option value="">Escolha estado</option>
+                </select>
+                <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                    <option value="">Escolha cidade</option>
+                </select>
+                <button class="col-span-2 lg:col-span-1 inline-flex items-center justify-center text-yellow-900 bg-orange-400 px-3 py-2 rounded">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    Pesquisar resorts
+                </button>
+            </form>
+        </div>
+    </div>
+    <!--/Form Search-->
+    <!--Footer-->
+    <div class="border-t border-gray-300">
+        <div class="container max-w-5xl mx-auto p-4 flex items-center justify-between">
+            <div class="">
+                <img src="./icons/rsz_rixos_hotels_logo.png" alt="" style="width: 190px; height: 60px; margin-top: 15px;">
+            </div>
+            <div class="space-y-2">
+                <div class="text-sm text-center">Nossas redes e apps</div>
+                <div class="flex items-center space-x-5">
+                    <a href="#"><img src="./icons/facebook.svg" alt="" style="width: 25px; height: 25px;"></a>
+                    <a href="#"><img src="./icons/instagram.svg" alt="" style="width: 25px; height: 25px;"></a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="rgb(0,0,0)" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="rgb(0,0,0)" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="rgb(0,0,0)" class="bi bi-google-play" viewBox="0 0 16 16">
+                        <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="rgb(0,0,0)" class="bi bi-apple" viewBox="0 0 16 16">
+                        <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                        <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                    </svg>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <!--/Footer-->
+</body>
+
+</html>
